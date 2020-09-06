@@ -1,0 +1,113 @@
+/** @format */
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "PT Serif", serif;
+  box-sizing: border-box;
+}
+
+.head__image {
+  width: 100%;
+  max-width: 400px;
+}
+
+.header {
+  color: white;
+  height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  align-items: center;
+  background-color: rgb(63, 173, 53) !important;
+}
+
+.restuatrant_title {
+  margin: 200px auto 0;
+}
+
+.restuatrant_title h1 {
+  font-size: 70px;
+  font-family: "PT Serif", serif;
+}
+
+.restuatrant_title p {
+  font-size: 25px;
+  color: rgb(219, 219, 219);
+  font-family: "Dancing Script", cursive;
+}
+
+.menucard {
+  margin: 50px 0;
+}
+
+.menucard h1 {
+  font-size: 20px;
+}
+
+.menu_card {
+  padding: 20px;
+  margin-top: 10px;
+  background-color: white;
+  border-bottom: 5px solid rgb(7, 164, 255);
+  border-radius: 5px;
+  transition: all 0.5s ease;
+}
+
+#menu {
+  cursor: pointer;
+  padding: 5px 7px;
+  max-width: 500px;
+  outline-color: rgb(0, 102, 255);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.082);
+}
+.#menu:hover {
+  border-color: rgb(0, 102, 255);
+}
+.#menu:focus {
+  box-shadow: 10px 10px 10px rgba(241, 241, 241, 0.288);
+}
+.input__submit {
+  margin-left: 10px;
+  background: none !important;
+  outline: none;
+  border: none;
+
+  border-bottom: 2px solid rgb(0, 110, 255);
+}
+
+.item__details {
+  margin: 0 auto;
+  max-width: 600px;
+  font-family: sans-serif;
+}
+
+.prices {
+  display: flex;
+}
+
+.prices p {
+  margin: 0 10px;
+}
+
+.hide {
+  display: none;
+}
+
+#menulist {
+  padding: 10px 20px;
+  width: 100%;
+  max-width: 400px;
+  margin: 10px auto;
+  text-align: center;
+  border: 1px solid rgba(85, 85, 85, 0.226);
+  border-radius: 25px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+#menulist:focus {
+  outline: 0px;
+}
+.cardtitle {
+  margin: 10px auto;
+  text-align: center;
+}
